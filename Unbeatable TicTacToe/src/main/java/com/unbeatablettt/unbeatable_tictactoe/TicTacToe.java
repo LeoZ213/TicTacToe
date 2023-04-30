@@ -106,7 +106,7 @@ public class TicTacToe {
         //Changes the turn on the label
         turnLabel.setText("Turn: " + turn);
 
-        //Check for win tie
+        //Check for tie
         if (checkForTie()) {
             turnLabel.setText("Draw");
             disableButtons();
